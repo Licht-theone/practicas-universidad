@@ -1,0 +1,4 @@
+[Persona [nombre=Ana, edad=15]
+, Persona [nombre=Pedro, edad=18]
+, Persona [nombre=Juan, edad=22]
+]

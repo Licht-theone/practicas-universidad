@@ -1,0 +1,4 @@
+Conan GUERRERO 1.3 10 10.45 6.7
+Merlin MAGO
+Xena GUERRERO 0.5 12
+Galadriel MAGO

@@ -1,0 +1,12 @@
+PANTALLA: pantalla1
+200 60 soldado
+400 60 soldado
+600 60 soldado
+PANTALLA: pantalla2
+200 60 soldado
+400 60 jefe
+600 60 soldado
+PANTALLA: pantalla3
+200 100 jefe
+400 120 master
+600 140 jefe

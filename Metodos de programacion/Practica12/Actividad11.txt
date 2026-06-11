@@ -1,0 +1,5 @@
+DNI         NOMBRE (solo socios plus)     Pago mensual
+20000000B   Jose Antonio Perez Garcia        7.00
+10000000A                                   40.00
+20000001B   Lola Lopez Gonzalez              7.00
+10000004A                                   40.00

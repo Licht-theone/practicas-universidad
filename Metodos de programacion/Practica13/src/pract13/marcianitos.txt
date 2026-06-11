@@ -1,0 +1,14 @@
+pantalla1 soldado 100 20
+pantalla1 jefe 150 70
+pantalla1 master 200 125
+
+pantalla2 soldado 100 20
+pantalla2 jefe 150 70
+pantalla2 master 200 125
+pantalla2 soldado 200 40
+pantalla2 jefe 300 140
+pantalla2 master 400 250
+
+pantalla3 master 100 20
+pantalla3 master 160 20
+pantalla3 master 200 20
