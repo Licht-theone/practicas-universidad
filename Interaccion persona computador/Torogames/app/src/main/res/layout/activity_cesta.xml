@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cesta">
+
+    <TextView
+        android:id="@+id/tvTituloCesta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="120dp"
+
+        android:text="Cesta de la compra"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivJuego1"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="48dp"
+        android:contentDescription="Juego1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTituloCesta"
+        app:srcCompat="@drawable/vjuego1" />
+
+    <ImageView
+        android:id="@+id/ivJuego2"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="65dp"
+        android:contentDescription="Juego2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivJuego1"
+        app:srcCompat="@drawable/vjuego2" />
+
+    <ImageView
+        android:id="@+id/ivJuego3"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="65dp"
+        android:contentDescription="Juego3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivJuego2"
+        app:srcCompat="@drawable/vjuego3" />
+
+    <TextView
+        android:id="@+id/tvJuego1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="48dp"
+        android:text="The Legend of Zelda: Tears\n of the Kingdom"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/ivJuego1"
+        app:layout_constraintTop_toBottomOf="@+id/tvTituloCesta" />
+
+    <TextView
+        android:id="@+id/tvPrecio1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Precio: 69,99 €"
+        android:textColor="#696969"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/tvJuego1"
+        app:layout_constraintTop_toBottomOf="@id/tvJuego1" />
+
+    <TextView
+        android:id="@+id/tvJuego2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="43dp"
+        android:text="Call of Duty: Modern\nWarfare III"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/ivJuego2"
+        app:layout_constraintTop_toBottomOf="@+id/botonComprar1" />
+
+    <TextView
+        android:id="@+id/tvPrecio2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Precio: 59,99 €"
+        android:textColor="#696969"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/tvJuego2"
+        app:layout_constraintTop_toBottomOf="@id/tvJuego2" />
+
+    <TextView
+        android:id="@+id/tvJuego3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="43dp"
+        android:text="Super Mario Bros. Wonder"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/ivJuego3"
+        app:layout_constraintTop_toBottomOf="@+id/botonComprar2" />
+
+    <TextView
+        android:id="@+id/tvPrecio3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Precio: 49,99 €"
+        android:textColor="#696969"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/tvJuego3"
+        app:layout_constraintTop_toBottomOf="@id/tvJuego3" />
+
+    <Button
+        android:id="@+id/botonComprar1"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:text="ELIMINAR"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@id/tvPrecio1"
+        app:layout_constraintTop_toBottomOf="@id/tvPrecio1" />
+
+    <Button
+        android:id="@+id/botonComprar2"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:text="ELIMINAR"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@id/tvPrecio2"
+        app:layout_constraintTop_toBottomOf="@id/tvPrecio2" />
+
+    <Button
+        android:id="@+id/botonComprar3"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:text="ELIMINAR"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@id/tvPrecio3"
+        app:layout_constraintTop_toBottomOf="@id/tvPrecio3" />
+
+    <TextView
+        android:id="@+id/tvPrecioTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="55dp"
+        android:text="Total: 179,97 €"
+        android:textColor="#696969"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivJuego3" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="80dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="60dp"
+        android:onClick="irAPago"
+        android:text="Pagar"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

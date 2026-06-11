@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Comprar">
+
+    <TextView
+        android:id="@+id/tvTituloCompra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="108dp"
+        android:text="Videojuegos en venta"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivJuego1"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTituloCompra"
+        app:srcCompat="@drawable/vjuego1" />
+
+    <ImageView
+        android:id="@+id/ivJuego2"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="75dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivJuego1"
+        app:srcCompat="@drawable/vjuego2" />
+
+    <ImageView
+        android:id="@+id/ivJuego3"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="75dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivJuego2"
+        app:srcCompat="@drawable/vjuego3" />
+
+    <TextView
+        android:id="@+id/tvJuego1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="48dp"
+        android:text="The Legend of Zelda:\nTears of the Kingdom"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/ivJuego1"
+        app:layout_constraintTop_toBottomOf="@+id/tvTituloCompra" />
+
+    <TextView
+        android:id="@+id/tvDesc1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="5dp"
+        android:text="Explora los cielos y las\ntierras de Hyrule en una\naventura épica de mundo\nabierto."
+        android:textColor="#696969"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/ivJuego1"
+        app:layout_constraintTop_toBottomOf="@+id/tvJuego1" />
+
+    <TextView
+        android:id="@+id/tvJuego2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="22dp"
+        android:text="Call of Duty: Modern\nWarfare III"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/ivJuego2"
+        app:layout_constraintTop_toBottomOf="@+id/botonComprar1" />
+
+    <TextView
+        android:id="@+id/tvDesc2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="5dp"
+        android:text="Acción táctica en primera\npersona con modos\nmultijugador y campaña\ncinematográfica."
+        android:textColor="#696969"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/ivJuego2"
+        app:layout_constraintTop_toBottomOf="@+id/tvJuego2" />
+
+    <TextView
+        android:id="@+id/tvJuego3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="22dp"
+        android:text="Super Mario Bros.\nWonder"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/ivJuego3"
+        app:layout_constraintTop_toBottomOf="@+id/botonComprar2" />
+
+    <TextView
+        android:id="@+id/tvDesc3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="5dp"
+        android:text="El clásico de plataformas\nde Nintendo regresa con\nnuevas transformaciones\ny niveles dinámicos."
+        android:textColor="#696969"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/ivJuego3"
+        app:layout_constraintTop_toBottomOf="@+id/tvJuego3" />
+
+    <Button
+        android:id="@+id/botonComprar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="44dp"
+        android:text="COMPRAR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDesc1" />
+
+    <Button
+        android:id="@+id/botonComprar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="44dp"
+        android:backgroundTint="@color/purple_500"
+        android:text="COMPRAR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDesc2" />
+
+    <Button
+        android:id="@+id/botonComprar3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="44dp"
+        android:backgroundTint="@color/purple_500"
+        android:text="COMPRAR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDesc3" />
+
+    <Button
+        android:id="@+id/botonPagar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:onClick="irACesta"
+        android:text="Ir a cesta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/botonComprar3"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

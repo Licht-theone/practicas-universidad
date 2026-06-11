@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="plataformas">
+        <item name="play" type="string">Playstation</item>
+        <item name="xbox" type="string">Xbox</item>
+        <item name="nintendo" type="string">Nintendo</item>
+        <item name="pc" type="string">PC</item>
+    </string-array>
+</resources>
